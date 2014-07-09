@@ -1,8 +1,8 @@
 {
-    "name":        "{{name}}",
-    "description": "{{description}}",
+    "name":        "ans_name",
+    "description": "ans_desription",
     "type":        "cakephp-plugin",
-    "keywords":    ["cakephp"{{keyword}}],
+    "keywords":    [ans_keyword],
     "homepage":    "http://www.netcommons.org/",
     "license":     "NetCommons License",
     "authors": [
