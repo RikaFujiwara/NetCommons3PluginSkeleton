@@ -1,5 +1,5 @@
 {
-    "name":        "ans_name",
+    "name":        "netcommons/ans_name",
     "description": "ans_desription",
     "type":        "cakephp-plugin",
     "keywords":    [ans_keyword],
