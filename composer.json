@@ -1,8 +1,8 @@
 {
-    "name":        "netcommons/skeleton",
-    "description": "skeleton Plugin for CakePHP",
+    "name":        "{{name}}",
+    "description": "{{description}}",
     "type":        "cakephp-plugin",
-    "keywords":    ["cakephp", "skeleton"],
+    "keywords":    ["cakephp"{{keyword}}],
     "homepage":    "http://www.netcommons.org/",
     "license":     "NetCommons License",
     "authors": [
