@@ -1,6 +1,6 @@
 <?php
 /**
- * index/editor template
+ * index template
  *
  * @author      Noriko Arai <arai@nii.ac.jp>
  * @author      SkeletonAuthor
