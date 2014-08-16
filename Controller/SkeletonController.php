@@ -11,7 +11,7 @@
  * @package     app.Plugin.Skeleton.Controller
  */
 
-App::uses('AppController', 'Controller');
+App::uses('SkeletonAppController', 'Skeleton.Controller');
 
 /**
  * Skeleton Controller
@@ -20,7 +20,7 @@ App::uses('AppController', 'Controller');
  * @package     app.Plugin.Skeleton.Controller
  * @since       NetCommons 3.0.0.0
  */
-class SkeletonController extends AppController {
+class SkeletonController extends SkeletonAppController {
 
 /**
  * use model
