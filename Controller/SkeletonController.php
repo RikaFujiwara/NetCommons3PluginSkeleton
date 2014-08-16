@@ -64,7 +64,6 @@ class SkeletonController extends SkeletonAppController {
  * @return   CakeResponse
  */
 	public function index() {
-
 	}
 
 }
