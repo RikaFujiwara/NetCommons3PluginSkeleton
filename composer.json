@@ -16,9 +16,9 @@
 		"components/jquery":            "~2.1"
 	},
 	"require-dev": {
-	"mustangostang/spyc":           "dev-master",
+		"mustangostang/spyc":           "dev-master",
 		"satooshi/php-coveralls":       "dev-master",
-	"netcommons/users":            "dev-master"
+		"netcommons/users":             "dev-master"
 	},
 	"license": "NetCommons License",
 	"authors": [
