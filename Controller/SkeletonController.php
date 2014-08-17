@@ -39,8 +39,6 @@ class SkeletonController extends SkeletonAppController {
  * @var       array
  */
 	public $components = array(
-		'Session',
-		'RequestHandler',
 		'Security'
 	);
 
@@ -64,6 +62,7 @@ class SkeletonController extends SkeletonAppController {
  * @return   CakeResponse
  */
 	public function index() {
+		return $this->render('Skeleton/index');
 	}
 
 }
