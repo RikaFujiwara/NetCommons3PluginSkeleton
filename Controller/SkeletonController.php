@@ -29,7 +29,7 @@ class SkeletonController extends SkeletonAppController {
  * @since     NetCommons 3.0.0.0
  * @var       array
  */
-	public $uses = array();
+	//public $uses = array();
 
 /**
  * use component
