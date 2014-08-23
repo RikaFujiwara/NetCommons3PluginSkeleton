@@ -27,6 +27,7 @@ class SkeletonSettingTest extends CakeTestCase {
  * @var     array
  */
 	public $fixtures = array(
+		'plugin.SkeletonSnakeName.SkeletonSnakeName_block',
 		'plugin.SkeletonSnakeName.SkeletonSnakeName_setting',
 		'plugin.SkeletonSnakeName.block',
 		'plugin.SkeletonSnakeName.language',

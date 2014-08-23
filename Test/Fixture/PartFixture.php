@@ -39,10 +39,6 @@ class PartFixture extends CakeTestFixture {
 		array(
 			'id' => 1,
 			'type' => 1,
-			'created_user_id' => 1,
-			'created' => '2014-06-02 16:18:01',
-			'modified_user_id' => 1,
-			'modified' => '2014-06-02 16:18:01'
 		),
 	);
 
