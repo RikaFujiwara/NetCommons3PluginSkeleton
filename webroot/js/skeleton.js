@@ -21,4 +21,4 @@ NetCommonsApp.controller('Skeleton',
       $scope.initialize = function() {
 
       };
-  });
+    });
