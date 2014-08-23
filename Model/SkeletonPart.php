@@ -44,61 +44,53 @@ class SkeletonPart extends SkeletonAppModel {
 		'block_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
 		'part_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
 		'read_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+				'message' => 'Security Error! Unauthorized input.',
+			),
+			'range' => array(
+				'rule' => array('range', 0, 3),
+				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
 		'edit_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+				'message' => 'Security Error! Unauthorized input.',
+			),
+			'range' => array(
+				'rule' => array('range', 0, 3),
+				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
 		'create_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+				'message' => 'Security Error! Unauthorized input.',
+			),
+			'range' => array(
+				'rule' => array('range', 0, 3),
+				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
 		'publish_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+				'message' => 'Security Error! Unauthorized input.',
+			),
+			'range' => array(
+				'rule' => array('range', 0, 3),
+				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
 	);
