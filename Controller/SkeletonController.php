@@ -3,11 +3,10 @@
  * Skeleton Controller
  *
  * @author      Noriko Arai <arai@nii.ac.jp>
- * @author      SkeletonAuthor
+ * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @link        http://www.netcommons.org NetCommons Project
  * @license     http://www.netcommons.org/license.txt NetCommons License
  * @copyright   Copyright 2014, NetCommons Project
- * @since       NetCommons 3.0.0.0
  * @package     app.Plugin.Skeleton.Controller
  */
 
@@ -16,17 +15,15 @@ App::uses('SkeletonAppController', 'Skeleton.Controller');
 /**
  * Skeleton Controller
  *
- * @author      SkeletonAuthor
+ * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @package     app.Plugin.Skeleton.Controller
- * @since       NetCommons 3.0.0.0
  */
 class SkeletonController extends SkeletonAppController {
 
 /**
  * use model
  *
- * @author    SkeletonAuthor
- * @since     NetCommons 3.0.0.0
+ * @author    SkeletonAuthorName <SkeletonAuthorEMail>
  * @var       array
  */
 	//public $uses = array();
@@ -34,8 +31,7 @@ class SkeletonController extends SkeletonAppController {
 /**
  * use component
  *
- * @author    SkeletonAuthor
- * @since     NetCommons 3.0.0.0
+ * @author    SkeletonAuthorName <SkeletonAuthorEMail>
  * @var       array
  */
 	public $components = array(
@@ -45,8 +41,7 @@ class SkeletonController extends SkeletonAppController {
 /**
  * beforeFilter
  *
- * @author   SkeletonAuthor
- * @since    NetCommons 3.0.0.0
+ * @author   SkeletonAuthorName <SkeletonAuthorEMail>
  * @return   void
  */
 	public function beforeFilter() {
@@ -57,8 +52,7 @@ class SkeletonController extends SkeletonAppController {
 /**
  * index
  *
- * @author   SkeletonAuthor
- * @since    NetCommons 3.0.0.0
+ * @author   SkeletonAuthorName <SkeletonAuthorEMail>
  * @return   CakeResponse
  */
 	public function index() {

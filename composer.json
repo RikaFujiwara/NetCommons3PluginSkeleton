@@ -1,7 +1,7 @@
 {
-	"name": "netcommons/ans_name",
+	"name": "netcommons/skeleton_name",
 	"version": "3.0.0",
-	"description": "ans_desription",
+	"description": "skeleton_desription",
 	"homepage": "http://www.netcommons.org/",
 	"extra": {
 		"installer-paths": {
@@ -28,7 +28,7 @@
 		}
 	],
 	"type":        "cakephp-plugin",
-	"keywords":    [ans_keyword],
+	"keywords":    ["skeleton_keyword"],
 	"config": {
 		"vendor-dir": "vendors"
 	}
