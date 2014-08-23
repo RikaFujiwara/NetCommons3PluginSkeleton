@@ -56,6 +56,10 @@ class SkeletonSingle extends SkeletonAppModel {
 				'rule' => array('numeric'),
 				'message' => 'Security Error! Unauthorized input.',
 			),
+			'range' => array(
+				'rule' => array('range', 0, 4),
+				'message' => 'Security Error! Unauthorized input.',
+			),
 		),
 		'language_id' => array(
 			'numeric' => array(
