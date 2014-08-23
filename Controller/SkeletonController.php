@@ -29,16 +29,6 @@ class SkeletonController extends SkeletonAppController {
 	//public $uses = array();
 
 /**
- * use component
- *
- * @author    SkeletonAuthorName <SkeletonAuthorEMail>
- * @var       array
- */
-	public $components = array(
-		'Security'
-	);
-
-/**
  * beforeFilter
  *
  * @author   SkeletonAuthorName <SkeletonAuthorEMail>
@@ -58,5 +48,4 @@ class SkeletonController extends SkeletonAppController {
 	public function index() {
 		return $this->render('Skeleton/index');
 	}
-
 }

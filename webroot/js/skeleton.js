@@ -11,7 +11,7 @@
  * @param {function(scope, http, sce, timeout)} Controller
  */
 NetCommonsApp.controller('Skeleton',
-    function($scope , $http, $sce, $timeout) {
+                         function($scope , $http, $sce, $timeout) {
 
       /**
        * Initialize

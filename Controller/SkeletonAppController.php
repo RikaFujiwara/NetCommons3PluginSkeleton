@@ -20,4 +20,13 @@ App::uses('AppController', 'Controller');
  */
 class SkeletonAppController extends AppController {
 
+/**
+ * use component
+ *
+ * @author    SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var       array
+ */
+	public $components = array(
+		'Security'
+	);
 }
