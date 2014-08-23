@@ -40,7 +40,7 @@ class Skeleton extends CakeMigration {
 					'skeleton_snake_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 					'status' => array('type' => 'integer', 'null' => false, 'default' => '1', 'length' => 3),
 					'language_id' => array('type' => 'integer', 'null' => false, 'default' => '1'),
-					'title' => array('type' => 'text', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+					'title' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 					'content' => array('type' => 'text', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 					'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
 					'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
