@@ -60,7 +60,7 @@ class SkeletonControllerTest extends ControllerTestCase {
  */
 	public function testIndex() {
 		$frameId = 1;
-		$this->testAction('/SkeletonSnake/SkeletonSnake/index/' . $frameId . '/', array('method' => 'get'));
+		$this->testAction('/SkeletonSnakeName/SkeletonSnakeName/index/' . $frameId . '/', array('method' => 'get'));
 		$this->assertTextNotContains('ERROR', $this->view);
 	}
 
