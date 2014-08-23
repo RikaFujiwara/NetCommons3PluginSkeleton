@@ -35,7 +35,7 @@ class Skeleton extends CakeMigration {
 	public $migration = array(
 		'up' => array(
 			'create_table' => array(
-				'skeleton_snakes' => array(
+				'SkeletonSnakeName' => array(
 					'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 					'skeleton_snake_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 					'status' => array('type' => 'integer', 'null' => false, 'default' => '1', 'length' => 3),
@@ -51,7 +51,7 @@ class Skeleton extends CakeMigration {
 					),
 					'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB'),
 				),
-				'skeleton_snakes_blocks' => array(
+				'SkeletonSnakeName_blocks' => array(
 					'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 					'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 					'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -63,7 +63,7 @@ class Skeleton extends CakeMigration {
 					),
 					'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB'),
 				),
-				'skeleton_snakes_setting' => array(
+				'SkeletonSnakeName_setting' => array(
 					'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 					'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 					'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -75,7 +75,7 @@ class Skeleton extends CakeMigration {
 					),
 					'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB'),
 				),
-				'skeleton_snakes_parts' => array(
+				'SkeletonSnakeName_parts' => array(
 					'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 					'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 					'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),
@@ -96,10 +96,10 @@ class Skeleton extends CakeMigration {
 		),
 		'down' => array(
 			'drop_table' => array(
-				'skeleton_snakes',
-				'skeleton_snakes_blocks',
-				'skeleton_snakes_setting',
-				'skeleton_snakes_parts_setting',
+				'SkeletonSnakeName',
+				'SkeletonSnakeName_blocks',
+				'SkeletonSnakeName_setting',
+				'SkeletonSnakeName_parts_setting',
 			)
 		)
 	);

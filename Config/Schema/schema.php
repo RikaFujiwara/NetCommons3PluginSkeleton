@@ -7,14 +7,14 @@
  * @link          http://www.netcommons.org NetCommons Project
  * @license       http://www.netcommons.org/license.txt NetCommons License
  * @copyright    Copyright 2014, NetCommons Project
- * @package       app.Plugin.Skeleton.Controller
+ * @package       app.Plugin.Skeleton.Config.Schema
  */
 
 /**
  * SkeletonSchema CakeSchema
  *
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @package     app.Plugin.Skeleton.Config.Migration
+ * @author        SkeletonAuthorName <SkeletonAuthorEMail>
+ * @package       app.Plugin.Skeleton.Config.Schema
  */
 class SkeletonSchema extends CakeSchema {
 
@@ -48,12 +48,12 @@ class SkeletonSchema extends CakeSchema {
 	}
 
 /**
- * skeleton_snakes table
+ * SkeletonSnakeName table
  *
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $skeleton_snakes = array(
+	public $SkeletonSnakeName = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'skeleton_snake_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'status' => array('type' => 'integer', 'null' => false, 'default' => '1', 'length' => 3),
@@ -71,12 +71,12 @@ class SkeletonSchema extends CakeSchema {
 	);
 
 /**
- * skeleton_snakes_blocks table
+ * SkeletonSnakeName_blocks table
  *
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $skeleton_snakes_blocks = array(
+	public $SkeletonSnakeName_blocks = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -90,12 +90,12 @@ class SkeletonSchema extends CakeSchema {
 	);
 
 /**
- * skeleton_snakes_setting table
+ * SkeletonSnakeName_setting table
  *
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $skeleton_snakes_setting = array(
+	public $SkeletonSnakeName_setting = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -109,12 +109,12 @@ class SkeletonSchema extends CakeSchema {
 	);
 
 /**
- * skeleton_snakes_parts table
+ * SkeletonSnakeName_parts table
  *
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $skeleton_snakes_parts = array(
+	public $SkeletonSnakeName_parts = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),
