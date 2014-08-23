@@ -58,4 +58,15 @@ class SkeletonSingleTest extends CakeTestCase {
 		parent::tearDown();
 	}
 
+/**
+ * testFindById
+ *
+ * @return void
+ */
+	public function testFindById() {
+		$id = 1;
+		$rtn = $this->SkeletonSingle->findById($id);
+		$this->assertTrue(is_array($rtn));
+	}
+
 }

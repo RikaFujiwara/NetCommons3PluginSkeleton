@@ -26,7 +26,11 @@ class SkeletonControllerTest extends ControllerTestCase {
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $fixtures = array();
+	public $fixtures = array(
+		'app.Session',
+		'app.SiteSetting',
+		'app.SiteSettingValue',
+	);
 
 /**
  * setUp
@@ -55,6 +59,9 @@ class SkeletonControllerTest extends ControllerTestCase {
  * @return   void
  */
 	public function testIndex() {
-
+		$frameId = 1;
+		$this->testAction('/SkeletonSingle/SkeletonSingle/index/' . $frameId . '/', array('method' => 'get'));
+		$this->assertTextNotContains('ERROR', $this->view);
 	}
+
 }

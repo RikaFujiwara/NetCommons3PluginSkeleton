@@ -54,4 +54,14 @@ class SkeletonBlockTest extends CakeTestCase {
 		parent::tearDown();
 	}
 
+/**
+ * testFindById
+ *
+ * @return void
+ */
+	public function testFindById() {
+		$id = 1;
+		$rtn = $this->SkeletonBlock->findById($id);
+		$this->assertTrue(is_array($rtn));
+	}
 }
