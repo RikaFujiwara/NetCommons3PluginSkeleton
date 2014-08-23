@@ -26,7 +26,7 @@ class SkeletonSingleFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'skeleton_snake_id' => array('type' => 'integer', 'null' => false, 'default' => null),
+		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'status' => array('type' => 'integer', 'null' => false, 'default' => '1', 'length' => 3),
 		'language_id' => array('type' => 'integer', 'null' => false, 'default' => '1'),
 		'title' => array('type' => 'text', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
@@ -50,15 +50,11 @@ class SkeletonSingleFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'skeleton_snake_id' => 1,
+			'SkeletonSnakeName_block_id' => 1,
 			'status' => 1,
 			'language_id' => 1,
 			'title' => 'Lorem ipsum dolor sit amet',
 			'content' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-			'created_user' => 1,
-			'created' => '2014-08-23 15:37:43',
-			'modified_user' => 1,
-			'modified' => '2014-08-23 15:37:43'
 		),
 	);
 

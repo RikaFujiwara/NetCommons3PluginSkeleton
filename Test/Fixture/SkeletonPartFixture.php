@@ -26,7 +26,7 @@ class SkeletonPartFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
+		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),
 		'read_content' => array('type' => 'integer', 'null' => false, 'default' => '0', 'length' => 2),
 		'edit_content' => array('type' => 'integer', 'null' => false, 'default' => '0', 'length' => 2),
@@ -51,16 +51,12 @@ class SkeletonPartFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'block_id' => 1,
+			'SkeletonSnakeName_block_id' => 1,
 			'part_id' => 1,
 			'read_content' => 1,
 			'edit_content' => 1,
 			'create_content' => 1,
 			'publish_content' => 1,
-			'created_user' => 1,
-			'created' => '2014-08-23 15:51:02',
-			'modified_user' => 1,
-			'modified' => '2014-08-23 15:51:02'
 		),
 	);
 

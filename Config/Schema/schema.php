@@ -55,7 +55,7 @@ class SkeletonSchema extends CakeSchema {
  */
 	public $SkeletonSnakeName = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'skeleton_snake_id' => array('type' => 'integer', 'null' => false, 'default' => null),
+		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'status' => array('type' => 'integer', 'null' => false, 'default' => '1', 'length' => 3),
 		'language_id' => array('type' => 'integer', 'null' => false, 'default' => '1'),
 		'title' => array('type' => 'text', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
@@ -97,7 +97,7 @@ class SkeletonSchema extends CakeSchema {
  */
 	public $SkeletonSnakeName_setting = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
+		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -116,7 +116,7 @@ class SkeletonSchema extends CakeSchema {
  */
 	public $SkeletonSnakeName_parts = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
+		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),
 		'read_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
 		'edit_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),

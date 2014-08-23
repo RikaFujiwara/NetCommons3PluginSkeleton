@@ -34,7 +34,7 @@ class SkeletonSettingFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
+		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -54,7 +54,7 @@ class SkeletonSettingFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'block_id' => 1,
+			'SkeletonSnakeName_block_id' => 1,
 			'created_user' => 1,
 			'created' => '2014-08-23 15:50:54',
 			'modified_user' => 1,
