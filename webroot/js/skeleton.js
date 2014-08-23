@@ -10,7 +10,7 @@
  * @param {string} Controller name
  * @param {function(scope, http, sce, timeout)} Controller
  */
-NetCommonsApp.controller('Announcements.edit',
+NetCommonsApp.controller('Skeleton',
     function($scope , $http, $sce, $timeout) {
 
       /**
