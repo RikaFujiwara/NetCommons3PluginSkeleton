@@ -47,10 +47,6 @@ class SkeletonBlockFixture extends CakeTestFixture {
 		array(
 			'id' => 1,
 			'block_id' => 1,
-			'created_user' => 1,
-			'created' => '2014-08-23 15:50:42',
-			'modified_user' => 1,
-			'modified' => '2014-08-23 15:50:42'
 		),
 	);
 

@@ -46,7 +46,7 @@ class SkeletonSetting extends SkeletonAppModel {
  * @var     array
  */
 	public $validate = array(
-		'block_id' => array(
+		'SkeletonSnakeName_block_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				'message' => 'Security Error! Unauthorized input.',
@@ -61,9 +61,9 @@ class SkeletonSetting extends SkeletonAppModel {
  * @var     array
  */
 	public $belongsTo = array(
-		'Block' => array(
-			'className' => 'Block',
-			'foreignKey' => 'block_id',
+		'SkeletonBlock' => array(
+			'className' => 'SkeletonBlock',
+			'foreignKey' => 'SkeletonSnakeName_block_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

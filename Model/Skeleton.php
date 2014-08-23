@@ -45,7 +45,7 @@ class SkeletonSingle extends SkeletonAppModel {
  * @var     array
  */
 	public $validate = array(
-		'skeleton_snake_id' => array(
+		'SkeletonSnakeName_block_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				'message' => 'Security Error! Unauthorized input.',
@@ -76,9 +76,9 @@ class SkeletonSingle extends SkeletonAppModel {
  * @var     array
  */
 	public $belongsTo = array(
-		'SkeletonSingle' => array(
-			'className' => 'SkeletonSingle',
-			'foreignKey' => 'skeleton_snake_id',
+		'SkeletonBlock' => array(
+			'className' => 'SkeletonBlock',
+			'foreignKey' => 'SkeletonSnakeName_block_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
@@ -89,63 +89,6 @@ class SkeletonSingle extends SkeletonAppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-		)
-	);
-
-/**
- * hasMany associations
- *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
- */
-	public $hasMany = array(
-		'SkeletonSingle' => array(
-			'className' => 'SkeletonSingle',
-			'foreignKey' => 'skeleton_snake_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'exclusive' => '',
-			'finderQuery' => '',
-			'counterQuery' => ''
-		)
-	);
-
-/**
- * hasAndBelongsToMany associations
- *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
- */
-	public $hasAndBelongsToMany = array(
-		'Block' => array(
-			'className' => 'Block',
-			'joinTable' => 'SkeletonSnakeName_blocks',
-			'foreignKey' => 'skeleton_snake_id',
-			'associationForeignKey' => 'block_id',
-			'unique' => 'keepExisting',
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'finderQuery' => '',
-		),
-		'Part' => array(
-			'className' => 'Part',
-			'joinTable' => 'SkeletonSnakeName_parts',
-			'foreignKey' => 'skeleton_snake_id',
-			'associationForeignKey' => 'part_id',
-			'unique' => 'keepExisting',
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'finderQuery' => '',
 		)
 	);
 

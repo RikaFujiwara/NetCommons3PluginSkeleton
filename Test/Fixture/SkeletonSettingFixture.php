@@ -55,10 +55,6 @@ class SkeletonSettingFixture extends CakeTestFixture {
 		array(
 			'id' => 1,
 			'SkeletonSnakeName_block_id' => 1,
-			'created_user' => 1,
-			'created' => '2014-08-23 15:50:54',
-			'modified_user' => 1,
-			'modified' => '2014-08-23 15:50:54'
 		),
 	);
 

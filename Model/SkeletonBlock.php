@@ -62,4 +62,52 @@ class SkeletonBlock extends SkeletonAppModel {
 			'order' => ''
 		)
 	);
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'SkeletonSingle' => array(
+			'className' => 'SkeletonSingle',
+			'foreignKey' => 'SkeletonSnakeName_block_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'SkeletonPart' => array(
+			'className' => 'SkeletonPart',
+			'foreignKey' => 'SkeletonSnakeName_block_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'SkeletonSetting' => array(
+			'className' => 'SkeletonSetting',
+			'foreignKey' => 'SkeletonSnakeName_block_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
+
 }
