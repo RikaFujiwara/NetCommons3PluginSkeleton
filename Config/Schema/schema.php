@@ -111,7 +111,7 @@ class SkeletonSchema extends CakeSchema {
 	);
 
 /**
- * SkeletonSnakeName_parts table
+ * SkeletonSnakeName_parts_setting table
  *
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
