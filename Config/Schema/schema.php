@@ -116,7 +116,7 @@ class SkeletonSchema extends CakeSchema {
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $SkeletonSnakeName_parts = array(
+	public $SkeletonSnakeName_parts_setting = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),

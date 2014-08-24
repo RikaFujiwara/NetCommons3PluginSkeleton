@@ -77,7 +77,7 @@ class Skeleton extends CakeMigration {
 					),
 					'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB'),
 				),
-				'SkeletonSnakeName_parts' => array(
+				'SkeletonSnakeName_parts_setting' => array(
 					'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 					'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 					'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),
