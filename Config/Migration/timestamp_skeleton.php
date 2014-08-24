@@ -40,6 +40,8 @@ class Skeleton extends CakeMigration {
 					'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 					'status' => array('type' => 'integer', 'null' => false, 'default' => '1', 'length' => 3),
 					'language_id' => array('type' => 'integer', 'null' => false, 'default' => '1'),
+					'is_auto_translation' => array('type' => 'boolean', 'null' => false, 'default' => false, 'length' => 1),
+					'translation_engine' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 					'title' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 					'content' => array('type' => 'text', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 					'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
