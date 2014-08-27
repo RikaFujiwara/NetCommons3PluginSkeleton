@@ -1,6 +1,6 @@
 <?php
 /**
- * SkeletonSettingFixture
+ * SkeletonSingleSettingFixture
  *
  * @author      Noriko Arai <arai@nii.ac.jp>
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
@@ -16,15 +16,7 @@
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @package     app.Plugin.Skeleton.Model
  */
-class SkeletonSettingFixture extends CakeTestFixture {
-
-/**
- * Table name
- *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     string
- */
-	public $table = 'SkeletonSnakeName_setting';
+class SkeletonSingleSettingFixture extends CakeTestFixture {
 
 /**
  * Fields
