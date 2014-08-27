@@ -11,6 +11,7 @@
  */
 
 App::uses('AppController', 'Controller');
+App::uses('NetCommonsFrameAppController', 'NetCommons.Controller');
 
 /**
  * SkeletonApp Controller
@@ -18,7 +19,7 @@ App::uses('AppController', 'Controller');
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @package     app.Plugin.Skeleton.Controller
  */
-class SkeletonAppController extends AppController {
+class SkeletonAppController extends NetCommonsFrameAppController {
 
 /**
  * use component
