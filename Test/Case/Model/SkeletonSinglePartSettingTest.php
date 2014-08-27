@@ -1,6 +1,6 @@
 <?php
 /**
- * SkeletonPart Test Case
+ * SkeletonSinglePartSettingTest Test Case
  *
  * @author      Noriko Arai <arai@nii.ac.jp>
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
@@ -18,7 +18,7 @@ App::uses('SkeletonPart', 'Skeleton.Model');
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @package     app.Plugin.Skeleton.Model
  */
-class SkeletonPartTest extends CakeTestCase {
+class SkeletonSinglePartSettingTest extends CakeTestCase {
 
 /**
  * Fixtures

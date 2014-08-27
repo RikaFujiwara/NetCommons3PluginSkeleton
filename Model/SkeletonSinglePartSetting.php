@@ -1,6 +1,6 @@
 <?php
 /**
- * SkeletonPart Model
+ * SkeletonSinglePartSetting Model
  *
  * @property Block $Block
  * @property Part $Part
@@ -24,7 +24,7 @@ App::uses('SkeletonAppModel', 'Skeleton.Model');
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @package     app.Plugin.Skeleton.Model
  */
-class SkeletonPart extends SkeletonAppModel {
+class SkeletonSinglePartSetting extends SkeletonAppModel {
 
 /**
  * Use database config
