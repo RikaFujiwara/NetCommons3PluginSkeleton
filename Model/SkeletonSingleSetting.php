@@ -1,6 +1,6 @@
 <?php
 /**
- * SkeletonSetting Model
+ * SkeletonSingleSetting Model
  *
  * @property Block $Block
  *
@@ -15,14 +15,14 @@
 App::uses('SkeletonAppModel', 'Skeleton.Model');
 
 /**
- * SkeletonSetting Model
+ * SkeletonSingleSetting Model
  *
  * @property Block $Block
  *
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @package     app.Plugin.Skeleton.Model
  */
-class SkeletonSetting extends SkeletonAppModel {
+class SkeletonSingleSetting extends SkeletonAppModel {
 
 /**
  * Use database config
@@ -31,13 +31,6 @@ class SkeletonSetting extends SkeletonAppModel {
  * @var     string
  */
 	public $useDbConfig = 'master';
-
-/**
- * Use table
- *
- * @var mixed False or table name
- */
-	public $useTable = 'SkeletonSnakeName_setting';
 
 /**
  * Validation rules

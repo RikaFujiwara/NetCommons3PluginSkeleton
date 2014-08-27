@@ -82,8 +82,8 @@ class SkeletonBlock extends SkeletonAppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
-		'SkeletonPartSetting' => array(
-			'className' => 'SkeletonPartSetting',
+		'SkeletonSinglePartSetting' => array(
+			'className' => 'SkeletonSinglePartSetting',
 			'foreignKey' => 'SkeletonSnakeName_block_id',
 			'dependent' => false,
 			'conditions' => '',
@@ -95,8 +95,8 @@ class SkeletonBlock extends SkeletonAppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
-		'SkeletonSetting' => array(
-			'className' => 'SkeletonSetting',
+		'SkeletonSingleSetting' => array(
+			'className' => 'SkeletonSingleSetting',
 			'foreignKey' => 'SkeletonSnakeName_block_id',
 			'dependent' => false,
 			'conditions' => '',

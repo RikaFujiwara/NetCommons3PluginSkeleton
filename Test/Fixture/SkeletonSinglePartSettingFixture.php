@@ -1,6 +1,6 @@
 <?php
 /**
- * SkeletonPartSettingFixture
+ * SkeletonSinglePartSettingFixture
  *
  * @author      Noriko Arai <arai@nii.ac.jp>
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
@@ -11,12 +11,12 @@
  */
 
 /**
- * SkeletonPartSettingFixture
+ * SkeletonSinglePartSettingFixture
  *
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
  * @package     app.Plugin.Skeleton.Model
  */
-class SkeletonPartSettingFixture extends CakeTestFixture {
+class SkeletonSinglePartSettingFixture extends CakeTestFixture {
 
 /**
  * Fields

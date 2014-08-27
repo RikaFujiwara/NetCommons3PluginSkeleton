@@ -10,7 +10,7 @@
  * @package     app.Plugin.Skeleton.Test.Model.Case
  */
 
-App::uses('SkeletonPart', 'Skeleton.Model');
+App::uses('SkeletonSinglePartSetting', 'Skeleton.Model');
 
 /**
  * SkeletonPart Test Case
