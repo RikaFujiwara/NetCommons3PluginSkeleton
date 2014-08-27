@@ -27,7 +27,7 @@ class SkeletonPartTest extends CakeTestCase {
  * @var     array
  */
 	public $fixtures = array(
-		'plugin.SkeletonSnakeName.SkeletonSnakeName_part',
+		'plugin.SkeletonSnakeName.SkeletonSnakeNameSingle_part_settings',
 		'plugin.SkeletonSnakeName.block',
 		'plugin.SkeletonSnakeName.language',
 		'plugin.SkeletonSnakeName.blocks_language',
@@ -42,7 +42,7 @@ class SkeletonPartTest extends CakeTestCase {
  */
 	public function setUp() {
 		parent::setUp();
-		$this->SkeletonPart = ClassRegistry::init('Skeleton.SkeletonPart');
+		$this->SkeletonSinglePartSetting = ClassRegistry::init('Skeleton.SkeletonSinglePartSetting');
 	}
 
 /**
@@ -51,7 +51,7 @@ class SkeletonPartTest extends CakeTestCase {
  * @return void
  */
 	public function tearDown() {
-		unset($this->SkeletonPart);
+		unset($this->SkeletonSinglePartSetting);
 
 		parent::tearDown();
 	}
@@ -63,7 +63,7 @@ class SkeletonPartTest extends CakeTestCase {
  */
 	public function testFindById() {
 		$id = 1;
-		$rtn = $this->SkeletonPart->findById($id);
+		$rtn = $this->SkeletonSinglePartSetting->findById($id);
 		$this->assertTrue(is_array($rtn));
 	}
 

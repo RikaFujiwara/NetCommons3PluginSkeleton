@@ -28,7 +28,7 @@ class SkeletonSettingTest extends CakeTestCase {
  */
 	public $fixtures = array(
 		'plugin.SkeletonSnakeName.SkeletonSnakeName_block',
-		'plugin.SkeletonSnakeName.SkeletonSnakeName_setting',
+		'plugin.SkeletonSnakeName.SkeletonSnakeNameSingle_settings',
 		'plugin.SkeletonSnakeName.block',
 		'plugin.SkeletonSnakeName.language',
 		'plugin.SkeletonSnakeName.blocks_language'
@@ -41,7 +41,7 @@ class SkeletonSettingTest extends CakeTestCase {
  */
 	public function setUp() {
 		parent::setUp();
-		$this->SkeletonSetting = ClassRegistry::init('Skeleton.SkeletonSetting');
+		$this->SkeletonSingleSetting = ClassRegistry::init('Skeleton.SkeletonSingleSetting');
 	}
 
 /**
@@ -50,7 +50,7 @@ class SkeletonSettingTest extends CakeTestCase {
  * @return void
  */
 	public function tearDown() {
-		unset($this->SkeletonSetting);
+		unset($this->SkeletonSingleSetting);
 
 		parent::tearDown();
 	}
@@ -62,7 +62,7 @@ class SkeletonSettingTest extends CakeTestCase {
  */
 	public function testFindById() {
 		$id = 1;
-		$rtn = $this->SkeletonSetting->findById($id);
+		$rtn = $this->SkeletonSingleSetting->findById($id);
 		$this->assertTrue(is_array($rtn));
 	}
 
