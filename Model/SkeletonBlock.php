@@ -82,8 +82,8 @@ class SkeletonBlock extends SkeletonAppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
-		'SkeletonPart' => array(
-			'className' => 'SkeletonPart',
+		'SkeletonPartSetting' => array(
+			'className' => 'SkeletonPartSetting',
 			'foreignKey' => 'SkeletonSnakeName_block_id',
 			'dependent' => false,
 			'conditions' => '',

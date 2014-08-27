@@ -53,7 +53,7 @@ class SkeletonSinglePartSetting extends SkeletonAppModel {
 				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
-		'read_content' => array(
+		'readable_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				'message' => 'Security Error! Unauthorized input.',
@@ -63,7 +63,7 @@ class SkeletonSinglePartSetting extends SkeletonAppModel {
 				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
-		'edit_content' => array(
+		'editable_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				'message' => 'Security Error! Unauthorized input.',
@@ -73,7 +73,7 @@ class SkeletonSinglePartSetting extends SkeletonAppModel {
 				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
-		'create_content' => array(
+		'creatable_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				'message' => 'Security Error! Unauthorized input.',
@@ -83,7 +83,7 @@ class SkeletonSinglePartSetting extends SkeletonAppModel {
 				'message' => 'Security Error! Unauthorized input.',
 			),
 		),
-		'publish_content' => array(
+		'publishable_content' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				'message' => 'Security Error! Unauthorized input.',
