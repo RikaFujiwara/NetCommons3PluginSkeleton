@@ -1,6 +1,6 @@
 <?php
 /**
- * index template
+ * view template
  *
  * @author      Noriko Arai <arai@nii.ac.jp>
  * @author      SkeletonAuthorName <SkeletonAuthorEMail>
@@ -11,4 +11,4 @@
  */
 ?>
 
-Skeleton index
+Skeleton view

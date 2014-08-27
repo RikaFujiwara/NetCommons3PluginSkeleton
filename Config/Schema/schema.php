@@ -92,12 +92,12 @@ class SkeletonSchema extends CakeSchema {
 	);
 
 /**
- * SkeletonSnakeName_setting table
+ * SkeletonSnakeNameSingle_settings table
  *
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $SkeletonSnakeName_setting = array(
+	public $SkeletonSnakeNameSingle_settings = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -111,19 +111,19 @@ class SkeletonSchema extends CakeSchema {
 	);
 
 /**
- * SkeletonSnakeName_parts_setting table
+ * SkeletonSnakeNameSingle_part_settings table
  *
  * @author  SkeletonAuthorName <SkeletonAuthorEMail>
  * @var     array
  */
-	public $SkeletonSnakeName_parts_setting = array(
+	public $SkeletonSnakeNameSingle_part_settings = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 		'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),
-		'read_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
-		'edit_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
-		'create_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
-		'publish_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
+		'readable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
+		'editable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
+		'creatable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
+		'publishable_content' => array('type' => 'boolean', 'null' => false, 'default' => fals),
 		'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified_user' => array('type' => 'integer', 'null' => true, 'default' => null),

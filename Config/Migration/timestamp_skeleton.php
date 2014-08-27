@@ -65,7 +65,7 @@ class Skeleton extends CakeMigration {
 					),
 					'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB'),
 				),
-				'SkeletonSnakeName_setting' => array(
+				'SkeletonSnakeNameSingle_settings' => array(
 					'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 					'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 					'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -77,14 +77,14 @@ class Skeleton extends CakeMigration {
 					),
 					'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB'),
 				),
-				'SkeletonSnakeName_parts_setting' => array(
+				'SkeletonSnakeNameSingle_part_settings' => array(
 					'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 					'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'unique'),
 					'part_id' => array('type' => 'integer', 'null' => false, 'default' => '0'),
-					'read_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
-					'edit_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
-					'create_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
-					'publish_content' => array('type' => 'integer', 'length' => 2, 'null' => false, 'default' => '0'),
+					'readable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
+					'editable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
+					'creatable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
+					'publishable_content' => array('type' => 'boolean', 'null' => false, 'default' => fals),
 					'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
 					'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 					'modified_user' => array('type' => 'integer', 'null' => true, 'default' => null),
@@ -100,8 +100,8 @@ class Skeleton extends CakeMigration {
 			'drop_table' => array(
 				'SkeletonSnakeName',
 				'SkeletonSnakeName_blocks',
-				'SkeletonSnakeName_setting',
-				'SkeletonSnakeName_parts_setting',
+				'SkeletonSnakeNameSingle_settings',
+				'SkeletonSnakeNameSingle_part_settings',
 			)
 		)
 	);

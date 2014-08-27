@@ -42,10 +42,26 @@ class SkeletonController extends SkeletonAppController {
 /**
  * index
  *
+ * @param int $frameId frames.id
+ * @param string $lang language
  * @author   SkeletonAuthorName <SkeletonAuthorEMail>
  * @return   CakeResponse
  */
-	public function index() {
+	public function index($frameId = 0, $lang = '') {
 		return $this->render('Skeleton/index');
 	}
+
+
+/**
+ * view
+ *
+ * @param int $frameId frames.id
+ * @param string $lang language
+ * @author   SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return   CakeResponse
+ */
+	public function view() {
+		return $this->render('Skeleton/view');
+	}
+
 }

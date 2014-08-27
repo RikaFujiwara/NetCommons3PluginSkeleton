@@ -53,7 +53,7 @@ class SkeletonControllerTest extends ControllerTestCase {
 	}
 
 /**
- * index
+ * test index
  *
  * @author   SkeletonAuthorName <SkeletonAuthorEMail>
  * @return   void
@@ -61,6 +61,18 @@ class SkeletonControllerTest extends ControllerTestCase {
 	public function testIndex() {
 		$frameId = 1;
 		$this->testAction('/SkeletonSnakeName/SkeletonSnakeName/index/' . $frameId . '/', array('method' => 'get'));
+		$this->assertTextNotContains('ERROR', $this->view);
+	}
+
+/**
+ * test view
+ *
+ * @author   SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return   void
+ */
+	public function testView() {
+		$frameId = 1;
+		$this->testAction('/SkeletonSnakeName/SkeletonSnakeName/view/' . $frameId . '/', array('method' => 'get'));
 		$this->assertTextNotContains('ERROR', $this->view);
 	}
 
