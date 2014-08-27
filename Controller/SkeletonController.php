@@ -48,6 +48,11 @@ class SkeletonController extends SkeletonAppController {
  * @return   CakeResponse
  */
 	public function index($frameId = 0, $lang = '') {
+		//フレーム初期化処理
+		if (! $this->_initializeFrame($frameId, $lang)) {
+			return $this->render(false);
+		}
+
 		return $this->render('Skeleton/index');
 	}
 

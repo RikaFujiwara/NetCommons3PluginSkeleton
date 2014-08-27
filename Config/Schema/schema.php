@@ -57,8 +57,8 @@ class SkeletonSchema extends CakeSchema {
 	public $SkeletonSnakeName = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'SkeletonSnakeName_block_id' => array('type' => 'integer', 'null' => false, 'default' => null),
-		'status' => array('type' => 'integer', 'null' => false, 'default' => '1', 'length' => 3),
-		'language_id' => array('type' => 'integer', 'null' => false, 'default' => '1'),
+		'status' => array('type' => 'integer', 'null' => false, 'default' => '0', 'length' => 3),
+		'language_id' => array('type' => 'integer', 'null' => false, 'default' => '2'),
 		'is_auto_translation' => array('type' => 'boolean', 'null' => false, 'default' => false, 'length' => 1),
 		'translation_engine' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'title' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
