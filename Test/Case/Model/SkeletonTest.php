@@ -34,7 +34,7 @@ class SkeletonSingleTest extends CakeTestCase {
 		'plugin.SkeletonSnakeName.SkeletonSnakeName_block',
 		'plugin.SkeletonSnakeName.part',
 		'plugin.SkeletonSnakeName.languages_part',
-		'plugin.SkeletonSnakeName.SkeletonSnakeNameSingle_part_settings'
+		'plugin.SkeletonSnakeName.SkeletonSnakeNameSingle_part_setting'
 	);
 
 /**
