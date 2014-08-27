@@ -84,7 +84,7 @@ class Skeleton extends CakeMigration {
 					'readable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
 					'editable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
 					'creatable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
-					'publishable_content' => array('type' => 'boolean', 'null' => false, 'default' => fals),
+					'publishable_content' => array('type' => 'boolean', 'null' => false, 'default' => false),
 					'created_user' => array('type' => 'integer', 'null' => true, 'default' => null),
 					'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 					'modified_user' => array('type' => 'integer', 'null' => true, 'default' => null),

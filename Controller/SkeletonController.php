@@ -51,7 +51,6 @@ class SkeletonController extends SkeletonAppController {
 		return $this->render('Skeleton/index');
 	}
 
-
 /**
  * view
  *
@@ -60,7 +59,7 @@ class SkeletonController extends SkeletonAppController {
  * @author   SkeletonAuthorName <SkeletonAuthorEMail>
  * @return   CakeResponse
  */
-	public function view() {
+	public function view($frameId = 0, $lang = '') {
 		return $this->render('Skeleton/view');
 	}
 
