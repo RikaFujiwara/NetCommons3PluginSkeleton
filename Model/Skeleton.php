@@ -7,12 +7,12 @@
  * @property Block $Block
  * @property Part $Part
  *
- * @author      Noriko Arai <arai@nii.ac.jp>
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @link        http://www.netcommons.org NetCommons Project
- * @license     http://www.netcommons.org/license.txt NetCommons License
- * @copyright   Copyright 2014, NetCommons Project
- * @package     app.Plugin.Skeleton.Model
+ * @author Noriko Arai <arai@nii.ac.jp>
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ * @package app.Plugin.Skeleton.Model
  */
 
 App::uses('SkeletonAppModel', 'Skeleton.Model');
@@ -25,24 +25,24 @@ App::uses('SkeletonAppModel', 'Skeleton.Model');
  * @property Block $Block
  * @property Part $Part
  *
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @package     app.Plugin.Skeleton.Model
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @package app.Plugin.Skeleton.Model
  */
 class SkeletonSingle extends SkeletonAppModel {
 
 /**
  * Use database config
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     string
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var string
  */
 	public $useDbConfig = 'master';
 
 /**
  * Validation rules
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $validate = array(
 		'SkeletonSnakeName_block_id' => array(
@@ -72,8 +72,8 @@ class SkeletonSingle extends SkeletonAppModel {
 /**
  * belongsTo associations
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $belongsTo = array(
 		'SkeletonBlock' => array(

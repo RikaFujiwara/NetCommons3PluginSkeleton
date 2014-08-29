@@ -2,27 +2,27 @@
 /**
  * SkeletonBlockFixture
  *
- * @author      Noriko Arai <arai@nii.ac.jp>
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @link        http://www.netcommons.org NetCommons Project
- * @license     http://www.netcommons.org/license.txt NetCommons License
- * @copyright   Copyright 2014, NetCommons Project
- * @package     app.Plugin.Skeleton.Test.Model.Fixture
+ * @author Noriko Arai <arai@nii.ac.jp>
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ * @package app.Plugin.Skeleton.Test.Model.Fixture
  */
 
 /**
  * SkeletonBlockFixture
  *
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @package     app.Plugin.Skeleton.Model
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @package app.Plugin.Skeleton.Model
  */
 class SkeletonBlockFixture extends CakeTestFixture {
 
 /**
  * Fields
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
@@ -40,8 +40,8 @@ class SkeletonBlockFixture extends CakeTestFixture {
 /**
  * Records
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $records = array(
 		array(

@@ -2,19 +2,19 @@
 /**
  * Schema file
  *
- * @author        Noriko Arai <arai@nii.ac.jp>
- * @author        SkeletonAuthorName <SkeletonAuthorEMail>
- * @link          http://www.netcommons.org NetCommons Project
- * @license       http://www.netcommons.org/license.txt NetCommons License
- * @copyright    Copyright 2014, NetCommons Project
- * @package       app.Plugin.Skeleton.Config.Schema
+ * @author Noriko Arai <arai@nii.ac.jp>
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ * @package app.Plugin.Skeleton.Config.Schema
  */
 
 /**
  * SkeletonSchema CakeSchema
  *
- * @author        SkeletonAuthorName <SkeletonAuthorEMail>
- * @package       app.Plugin.Skeleton.Config.Schema
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @package app.Plugin.Skeleton.Config.Schema
  * @SuppressWarnings(PHPMD.LongVariable)
  */
 class SkeletonSchema extends CakeSchema {
@@ -22,8 +22,8 @@ class SkeletonSchema extends CakeSchema {
 /**
  * Database connection
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     string
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var string
  */
 	public $connection = 'master';
 
@@ -31,8 +31,8 @@ class SkeletonSchema extends CakeSchema {
  * before
  *
  * @param array $event savent
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @return  bool
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return bool
  */
 	public function before($event = array()) {
 		return true;
@@ -42,8 +42,8 @@ class SkeletonSchema extends CakeSchema {
  * after
  *
  * @param array $event event
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @return  void
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return void
  */
 	public function after($event = array()) {
 	}
@@ -51,8 +51,8 @@ class SkeletonSchema extends CakeSchema {
 /**
  * SkeletonSnakeName table
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $SkeletonSnakeName = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
@@ -76,8 +76,8 @@ class SkeletonSchema extends CakeSchema {
 /**
  * SkeletonSnakeName_blocks table
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $SkeletonSnakeName_blocks = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
@@ -95,8 +95,8 @@ class SkeletonSchema extends CakeSchema {
 /**
  * SkeletonSnakeNameSingle_settings table
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $SkeletonSnakeNameSingle_settings = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
@@ -114,8 +114,8 @@ class SkeletonSchema extends CakeSchema {
 /**
  * SkeletonSnakeNameSingle_part_settings table
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	public $SkeletonSnakeNameSingle_part_settings = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),

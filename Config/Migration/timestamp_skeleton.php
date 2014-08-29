@@ -2,35 +2,35 @@
 /**
  * Migration file
  *
- * @author        Noriko Arai <arai@nii.ac.jp>
- * @author        SkeletonAuthorName <SkeletonAuthorEMail>
- * @link          http://www.netcommons.org NetCommons Project
- * @license       http://www.netcommons.org/license.txt NetCommons License
- * @copyright     Copyright 2014, NetCommons Project
- * @package       app.Plugin.Skeleton.Config.Migration
+ * @author Noriko Arai <arai@nii.ac.jp>
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ * @package app.Plugin.Skeleton.Config.Migration
  */
 
 /**
  * Skeleton CakeMigration
  *
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @package     app.Plugin.Skeleton.Config.Migration
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @package app.Plugin.Skeleton.Config.Migration
  */
 class Skeleton extends CakeMigration {
 
 /**
  * Migration description
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     string
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var string
  */
 	public $description = '';
 
 /**
  * Actions to be performed
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array $migration
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array $migration
  */
 	public $migration = array(
 		'up' => array(
@@ -109,8 +109,8 @@ class Skeleton extends CakeMigration {
 /**
  * recodes
  *
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @var     array $records
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array $records
  */
 	public $records = array();
 
@@ -129,7 +129,7 @@ class Skeleton extends CakeMigration {
  * After migration callback
  *
  * @param string $direction up or down direction of migration process
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
  * @return boolean Should process continue
  */
 	public function after($direction) {
@@ -151,8 +151,8 @@ class Skeleton extends CakeMigration {
  *
  * @param string $model model name to update
  * @param string $records records to be stored
- * @author  SkeletonAuthorName <SkeletonAuthorEMail>
- * @return  boolean Should process continue
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return boolean Should process continue
  */
 	public function updateRecords($model, $records) {
 		$Model = $this->generateModel($model);

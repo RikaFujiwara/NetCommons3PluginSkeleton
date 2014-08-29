@@ -2,12 +2,12 @@
 /**
  * Skeleton Controller
  *
- * @author      Noriko Arai <arai@nii.ac.jp>
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @link        http://www.netcommons.org NetCommons Project
- * @license     http://www.netcommons.org/license.txt NetCommons License
- * @copyright   Copyright 2014, NetCommons Project
- * @package     app.Plugin.Skeleton.Controller
+ * @author Noriko Arai <arai@nii.ac.jp>
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ * @package app.Plugin.Skeleton.Controller
  */
 
 App::uses('SkeletonAppController', 'Skeleton.Controller');
@@ -15,24 +15,24 @@ App::uses('SkeletonAppController', 'Skeleton.Controller');
 /**
  * Skeleton Controller
  *
- * @author      SkeletonAuthorName <SkeletonAuthorEMail>
- * @package     app.Plugin.Skeleton.Controller
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @package app.Plugin.Skeleton.Controller
  */
 class SkeletonController extends SkeletonAppController {
 
 /**
  * use model
  *
- * @author    SkeletonAuthorName <SkeletonAuthorEMail>
- * @var       array
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @var array
  */
 	//public $uses = array();
 
 /**
  * beforeFilter
  *
- * @author   SkeletonAuthorName <SkeletonAuthorEMail>
- * @return   void
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return void
  */
 	public function beforeFilter() {
 		parent::beforeFilter();
@@ -44,8 +44,8 @@ class SkeletonController extends SkeletonAppController {
  *
  * @param int $frameId frames.id
  * @param string $lang language
- * @author   SkeletonAuthorName <SkeletonAuthorEMail>
- * @return   CakeResponse
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return CakeResponse
  */
 	public function index($frameId = 0, $lang = '') {
 		//フレーム初期化処理
@@ -61,8 +61,8 @@ class SkeletonController extends SkeletonAppController {
  *
  * @param int $frameId frames.id
  * @param string $lang language
- * @author   SkeletonAuthorName <SkeletonAuthorEMail>
- * @return   CakeResponse
+ * @author SkeletonAuthorName <SkeletonAuthorEMail>
+ * @return CakeResponse
  */
 	public function view($frameId = 0, $lang = '') {
 		return $this->render('Skeleton/view');
